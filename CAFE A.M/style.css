@@ -1,0 +1,94 @@
+body{
+    background-image: url(./image/coffee.jpeg);
+    background-size: cover;
+        background-attachment: fixed;
+}
+.menu{
+    height: 50px;
+    background-color:#CEE6F3;
+}
+.header{
+    height: 300px;
+
+    background-image: url(./image/coffee.jpeg);
+    background-size: cover;
+        background-attachment: fixed;
+}
+.parts{
+    min-height: 300px;
+    /* background-image: url(./caffee.png); */
+    padding: 50px 5% 50px 5%;
+}
+.title{
+    text-align: center;
+}
+.part1{
+    background-color:#BA704F;
+}
+.TOT{
+    display: flex;
+gap: 10px;
+flex-direction: row-reverse;
+}
+
+
+.part2{
+    background-color:#6c3428  ;
+    /* background-image: url(./image/pattern2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed; */
+    background-color:#DFA878;
+
+}
+.cofee_list{
+    display: flex;
+    gap: 10px;
+}
+.card {
+    width: 200px;
+    height:400px;
+    background-color: rgba(155, 62, 0, 0.438);
+    padding: 10px;
+
+}
+
+.img_card {
+    width: 200px;
+    height: 200px;
+}.text{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+.part3{
+    background-color:#BA704F;
+}
+.product_list{
+    display:flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.part4{background-color:#DFA878;
+}
+.part5{
+    height: 300px;
+    background-image: url(./image/pattern2.jpg);
+    background-position: right;
+    height: 100;
+}
+.part6{
+    background-color: #6c3428d3;
+}
+.part7{
+    background-color: #6c3428;
+}
+.footer{
+    height: 100px;
+    background-color: gray;
+}
+
