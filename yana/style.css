@@ -1,0 +1,187 @@
+
+
+body{
+     background-image: url(./patern/oo.jpg);
+     background-attachment: fixed;
+     direction: rtl;
+     background-size: cover; 
+ }
+ *{
+     scroll-behavior: smooth;
+ }
+ .menu{
+    background-color:#FAEED1 ;
+     
+}
+.list1{
+    list-style: bengali;;
+}
+.menu>li{
+    display: inline-block;
+    padding: 18px;
+}
+.header{
+    height:400px ;
+    min-width: 100px;
+    text-align: center;
+}
+.h2{
+    color:bisque;
+}
+.h3{
+    color: blanchedalmond;
+}
+.parts{
+    min-height:200px ;
+    padding: 56px 7% 50px 7%;
+    
+    
+}
+.part1{
+    background-color: rgba(245, 238, 206, 0.589);
+    min-height:300PX ;
+    text-align: center;
+}
+.card{
+    min-width: 250px;
+    height: 400px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+   
+}
+img {
+    width: 250px;
+    height: 200px;
+    border-radius: 50px 50px 0 0;
+
+}
+ 
+.card_text {
+    width: 250px;
+    height: 200px;
+  
+    /* background-color:cornsilk; */
+}
+.prooduct_list{
+    gap: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 300px;
+}
+.div{
+    display: flex;
+    gap: 200px;
+    flex-wrap: wrap;
+}
+
+.part2{
+    background-color: #EADBC8;
+    height: 150px;
+    text-align: center;
+}
+.h1{color: black;}
+body{
+    direction: ;
+}
+
+.part3{
+    background-color:A19882 ;
+    min-height:200px;
+    column-count: 5;
+}
+.center{
+    column-span: all;
+    text-align:center ;
+}
+.part4{
+background-color:C2B8A3 ;
+height: 150px;
+text-align: center;
+}
+.r{
+    background-image: url(./patern/a2.jpg);
+    height: 300;
+}
+.part5{
+    background-color: rgba(255, 228, 196, 0.664);
+    text-align: center;
+}
+
+.rain{
+    display: flex;
+    gap: 10px;
+}
+.card{ 
+    width: 250px;
+    height: 400px;
+    background-color: rgb(230, 207, 171);
+    border-radius: 50px;
+    
+}
+
+.img {
+    width: 250px;
+    height: 200px;
+}
+ 
+.card_text {
+    width: 250px;
+    height: 200px;
+    /* background-color:cornsilk; */
+}
+.prooduct_list{
+    gap: 30px;
+    display: flex;
+    /* overflow: scroll; */
+}
+.part6{
+    background-color:DAD0C2 ;
+text-align: center;
+height:400px ;
+}
+.puzzle{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+.d{
+    width: 150px;
+    height: 150px;
+    border:2px solid ;
+    flex-wrap: wrap;
+    /* padding: 50px; */
+    width: 146px;
+    height: 146px;
+    background-image: url(./patern/a2.jpg);
+    background-size: 300px;
+}
+.d1{
+    border-radius: 0 100% 0 0;
+    background-position: top left;
+
+}
+.d2{
+    border-radius: 100% 0 0 0;
+    background-position: top right;
+
+
+}
+.d3{
+    border-radius: 0 0 100% 0;
+    background-position: bottom left;
+
+}
+.d4{
+    border-radius: 0 0 0 100%;
+    background-position: bottom right;
+
+}
+.footer{
+    background-color:776B5D ;
+    height: 25px;
+    
+}

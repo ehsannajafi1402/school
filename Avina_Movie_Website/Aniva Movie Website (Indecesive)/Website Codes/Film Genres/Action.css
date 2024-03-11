@@ -1,0 +1,70 @@
+body{
+    color: white;
+    margin: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+}
+.title{
+    color: #0092ca;
+}
+.text{
+    color: #bababa;
+}
+.cards{
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    height: 10%;
+    width: auto;
+    background-color: black;
+}
+.header{}
+.secs{
+    padding: 30pt 8% 30pt 8%;
+    min-height: 100pt;
+    background-color: #121212;
+}
+.subgenres{}
+.top_movies{}
+.bi-chevron-right{
+    color: white;
+}
+.top_movies_list{
+    display: flex;
+    gap: 20pt;
+    overflow-x: scroll;
+}
+.top_movies_cards{
+    height: 470pt;
+    border-radius: 0 0 10pt 10pt;
+}
+.top_movies_cards_top{
+    height: 324pt;
+}
+.top_movies_cards_bottom{
+    padding: 5pt;
+}
+.bi-star-fill{
+    color: #f5c618;
+}
+.footer{
+    min-height: 100pt;
+    background-color: black;
+    padding: 30pt 8% 30pt 8%;
+    text-align: center;
+}
+.footer_icons{
+    font-size: x-large;
+    column-count: 4;
+    column-gap: 30pt;
+    display: flex;
+    justify-content: center;
+}
+.footer_div{
+    justify-content: center;
+    display: flex;
+    column-count: 5;
+    column-gap: 50pt;
+}

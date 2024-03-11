@@ -1,0 +1,99 @@
+.menu{
+    height: 50px;
+    background-color: #9fbb73;
+}
+.header{
+    height: 200px;
+    /* background-color: #f3b664; */
+}
+.title{
+    text-align: center;
+    color: black;
+    column-span: all;
+    margin: 10px;
+}
+.title1{
+    text-align: center;
+    color: black;
+    margin: 0px;
+}
+.title2{
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+}
+body{
+ min-height: 200px;
+background-image: url(./images/music/header.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+margin: 0;
+}
+.products{
+    display: flex;
+    overflow-x: scroll;
+    min-height: 200px;
+}
+.tion2{
+    height: 200px;
+}
+.tion3{
+    height: 200px;
+    background-color: #f1eb90;
+    padding: 50px 7% 50px 7%;
+    
+}
+.music_list{
+    display: flex;
+    gap: 20px;
+}
+.cards {
+    background-color: rgb(155, 116, 58);
+    height: 200px;
+    width: 165px;
+    padding: 15px 2% 15px 2%;
+}
+
+.imgcard {
+    width: 100%;
+    height: 100px;
+}
+.txtcard {
+    width: 50%;
+    height: 100px;
+}
+
+.tion4{
+   height: 200px;
+    background-color: #f1eb90;
+}
+.tion5{
+    height: 200px;
+    background-image: url(./images/music/pattern_color.png);
+}
+.tion6{
+    min-height: 200px;
+    background-color: #f1eb90;
+    padding: 7% 50px 7% 50px;
+text-align: center;
+
+}
+.concert-img{
+    width: 300px ;
+    height: 300px;
+}
+.melisa{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 21px;
+    align-items: center;
+    gap: 80px;
+}
+.footer{
+    height: 100px;
+    background-color: #ec8f5e;
+    text-align: center;
+    padding: 5% 30px 5% 30px;
+    font-size: 30px;
+}

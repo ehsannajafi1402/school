@@ -1,0 +1,257 @@
+.menu {
+    height: 50px;
+    background-color: #f1c27b;
+    padding: 10px 7%;
+}
+
+body {
+    direction: rtl;
+    background-image: url(./Pins/بنر.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+}
+
+/*=========================================================================================================================*/
+.header {
+    height: 600px;
+}
+
+.parts {
+    background-color: #ffd89c;
+    min-height: 300px;
+}
+
+/*==============================================================================================================================*/
+
+.part1 {
+
+    background-color: #a2CDB0;
+}
+
+/*=========================================================================================================================*/
+.Part2 {
+
+    background-size: 200px;
+    background-color: #f1c27b33;
+
+}
+
+.img_side {
+    width: 130px;
+    height: 130px;
+
+
+}
+
+.توضیحات {
+    display: flex;
+    gap: 30px;
+    
+
+}
+
+.part3 {
+    background-color: #f1c27b;
+}
+.puzzle{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+}
+.d{
+    padding: 2px;
+    box-sizing:border-box ;
+    background-size: 200%;
+    background-image: url(./Pins/panda.jpg);
+ 
+}
+.d1{
+    width: 146px;
+    height: 146px;
+    border: 2px solid;
+    border-radius: 0 100% 0 0;
+background-position: top right;
+}
+.d2{
+    width: 146px;
+    height: 146px;
+    border: 2px solid;
+    border-radius:  100% 0 0 0;
+  background-position: top left ;
+       }
+       
+    .d3{
+        width: 146px;
+        height: 146px;
+        border: 2px solid;
+        border-radius: 0 0 100% 0; 
+        background-position: bottom right;
+       
+    }
+    .d4{
+        width: 146px;
+        height: 146px;
+        border: 2px solid;
+        border-radius: 0 0 0 100%;
+        background-position: bottom left;
+             
+    }
+
+
+
+.part4 {
+    background-color: #a2CDB0;
+    min-height: 300px;
+}
+
+.box {
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.top {
+    width: 100%;
+    height: 37%;
+    display: flex;
+
+}
+
+
+.bottom {
+    width: 100%;
+    height: 63%;
+}
+
+.product_list {
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    min-height: 300px;
+
+}
+
+.part5 {
+
+    background-repeat: repeat-x;
+    background-size: 150px;
+    background-position-y: bottom;
+    background-image: url(./Pins/بنر.jpg);
+}
+
+.sale_product_list {
+    display: flex;
+    gap: 10px;
+    flex-shrink: 0;
+    overflow-x: scroll;
+}
+
+.footer {
+    height: 100px;
+    background-color: #ae8c5a;
+}
+
+.p {
+    padding: 50px 7% 50px 7%;
+}
+
+.text {
+    text-align: center;
+    column-span: all;
+    margin-bottom: 30px;
+}
+
+.part6 {
+
+    column-count: 3;
+    gap: 15px;
+    column-rule-style: dotted;
+    column-rule-color: purple;
+    column-rule-width: 1px0;
+}
+
+.part7 {
+    background-size: 200px;
+    background-color: #519868;
+    padding: 10px 7%;
+}
+
+.کارت {
+    background-color: #022a0f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    flex-wrap: wrap;
+   
+
+}
+
+
+.part8 {
+    background-size: 200px;
+    background-color: #5fb77c;
+    padding: 10px 7%;
+
+
+}
+
+.box {
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    flex-shrink: 0;
+    background-color: #519868;
+
+}
+
+
+.top {
+    width: 100%;
+    height: 37%;
+    display: flex;
+}
+
+
+.bottom {
+    width: 100%;
+    height: 63%;
+}
+
+.product_list {
+    display: flex;
+    gap: 10px;
+
+    min-height: 300px;
+
+}
+
+.text {
+    text-align: center;
+    column-span: all;
+    margin-bottom: 30px;
+}
+
+/* ================================================================================================================= */
+
+
+/* .top {
+    width: 30%;
+    height: 70%;
+}
+
+.bottom {
+    width: 30%;
+    height: 70%;
+    background-color: #A2CDB0;
+} 
+ 

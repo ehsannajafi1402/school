@@ -1,0 +1,229 @@
+body{
+    background-image: url(./images/undraw_Doctors_p6aq.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    direction: rtl;
+    margin: 0px;
+}
+.menu{
+    height: 50pt;
+    background-color: rgb(100, 204, 197);
+    text-align: center;
+    padding: 1% 1% 1% 1%;
+}
+.header{}
+.parts{
+    min-height: 300px;
+    padding: 1% 1% 1% 1%;
+}
+.part1{}
+.part2{}
+.part3{
+    background-image: url(./images/doctor\ pattern.jpg);
+    }
+.part4{
+    background-color: rgba(165, 243, 238, 0.5);
+    height: 150px;
+}
+.part6{
+    min-height: auto;
+    background-color: rgba(172, 172, 172, 0.527);
+}
+.footer{
+    background-color: rgb(5, 59, 80);
+    height: 122pt;
+    padding: 1% 1% 1% 1%;
+    min-height: 10pt;
+    direction: rtl;
+    display: flex;
+    flex-direction: row;
+    gap: 20pt;
+}
+.ex1{
+    background-color: rgb(189, 212, 212);
+height:200px ;
+width:200px ;
+padding: 1% 1% 1% 1%;
+text-align: center;
+}
+.ex2{
+background-color: rgb(189, 212, 212);
+height:200px ;
+width: 200px;
+padding: 1% 1% 1% 1%;
+text-align: center;
+}
+.adress{
+    width: 70pt;
+    height: 70pt;
+}
+.phone{
+    width: 70pt;
+    height: 70pt;
+}
+.ex4{
+    background-color: cadetblue;
+    height: 200px;
+    width: 200px;
+}
+.nazar1{
+    height: 40pt;
+    background-color: rgb(189, 212, 212);
+    padding: 1% 1% 1% 1%;
+}
+.nazar2{
+    height: 40pt;
+    background-color: rgb(189, 212, 212);
+    padding: 1% 1% 1% 1%;
+}
+undraw
+.part5{
+    display: flex;
+    flex-direction: row;
+    gap: 50pt;
+    background-color: rgb(189, 212, 212);
+}
+.img1{
+    height: 50%;
+}
+.img2{
+    height: 40%;
+}
+.doc1{
+    width: 100pt;
+    height: 100pt;
+    background-color: rgb(189, 212, 212);
+    padding: 1% 1% 1% 1% 1%; 
+}
+.doc-img1{
+    height: 70pt;
+    width: 100pt;
+}
+.doc-img2{
+    height: 70pt;
+    width: 100pt;
+}
+.doc2{
+    width: 100pt;
+    height: 100pt;
+    background-color: rgb(189, 212, 212);
+    padding: 1% 1% 1% 1% 1%; 
+}
+.doc3{
+    width: 100pt;
+    height: 100pt;
+    background-color: rgb(189, 212, 212);
+    padding: 1% 1% 1% 1% 1%; 
+}
+.doc-img3{
+    height: 70pt;
+    width: 100pt;
+}
+.doc4{
+    width: 100pt;
+    height: 100pt;
+    background-color: rgb(189, 212, 212);
+    padding: 1% 1% 1% 1% 1%; 
+}
+.doc-img4{
+    height: 70pt;
+    width: 100pt;
+}
+.nazar0{
+    padding: 1% 1% 1% 1%;
+}
+.doc0{
+    padding: 1% 1% 1% 1%;
+    background-color: rgba(183, 236, 238, 0.479);
+    text-align: center;
+}
+.doc{
+    text-align: center;
+    padding-bottom: 1%;
+    min-width: 10px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+.doctors{
+    display: flex;
+    flex-direction: row;
+    gap: 20pt;
+    overflow-x: scroll;
+}
+.explain{
+    display: flex;
+    flex-direction: row;
+    gap: 50pt;
+}
+.doc50{
+    height: 200px; ;
+    font: weight 100px; ;
+    
+}
+.doc51{
+    background-color: rgba(131, 152, 153, 0.315);
+    height: 200px;
+}
+.hospitalimg{
+    width: 40%;
+    height: 200pt;
+}
+.hospital{
+    background-color: rgb(189, 212, 212);
+    width: 500pt;
+}
+.hos{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.ma{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.hospital-ma{
+    column-count: 2;
+    gap: 4px;
+    column-rule-style: dotted;
+    column-rule-color: darkcyan;
+    column-rule-width: 10px;
+    text-align: center;
+    border: 4px dotted cadetblue;
+}
+.ma-title{
+    column-span: all;
+}
+*{
+    font-family: system-ui;
+    scroll-behavior: smooth;
+}
+.explain{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.nazars{
+    border-radius: 40px;
+}
+.list1>li{
+    list-style: lower-alpha;
+}
+.li1{
+    display: inline-block;
+    background-color: cadetblue;
+    padding: 1%;
+}
+.li2{
+    display: inline-block;
+    background-color: cadetblue;
+    padding: 1%;
+}
+.listt{
+    background-color: rgb(131, 180, 182);
+    margin: 0;
+}
+.listt>li{
+    display: inline-block;
+    padding: 10px;
+}
