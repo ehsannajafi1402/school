@@ -1,0 +1,113 @@
+body{
+background-image:url(./images/-6019309817266552307_120.jpg) ;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+*{
+  font-size: 18px;
+  font-family: ;
+}
+.parts{
+  min-height: 250px;
+  PADDING: 50PX 7% 50PX 7%;
+
+}
+/* ====================================== */
+.menu{
+    background-color:#ce5a67
+  
+}
+.list>li{
+  color: azure;
+  padding: 10px;
+  list-style:lower-alpha
+}
+/* ====================================== */
+
+  .header{
+ height:400px;
+  }
+/* ====================================== */
+
+  .part1{            
+    background-color: #ffc5c5;
+    background-image: url();
+      background-repeat:no-repeat;
+      background-size: 50% 800px;
+      background-position-y: bottom ;
+      background-position-x: right ;
+      background-attachment:scroll;
+  }
+  .rock_list{
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+  }
+  .rock_list2{
+    display: flex;
+    gap: 10px;
+    /* overflow-x: scroll; */
+    flex-wrap: wrap;
+  }
+  .card {
+    min-width: 150px;
+    height: 300px;
+    background-color: rgb(133, 140, 161);
+    padding: 10px;
+
+}
+
+
+.card_img,
+.card_txt {
+
+    height: 50%;
+    width: 100%;
+}
+/* ====================================== */
+
+  .part2{background-image:url(./images/pattern_opacity.png);}
+/* ====================================== */
+  
+  .part3{
+    background-color: rgb(122, 82, 116);
+    column-count: 3;
+    column-rule-style: solid;
+  }
+/* ====================================== */
+    
+  .part4{
+    background-color: rgb(255 197 197 / 91%);
+
+  }
+/* ====================================== */
+
+  .part5{background-color: rgb(255, 255, 255);
+  display: flex;
+  gap: 20px;
+  }
+  .part5_img{
+    width: 200px;
+  }
+/* ====================================== */
+  
+  .part6{
+    background-color: #ffc5c5;
+
+  }
+details{
+  border: 2px solid;
+  padding: 10px;
+  border-radius: 5px;
+} 
+/* ====================================== */
+
+  .footer{
+    height: 100px;
+    background-color:#ce5a67
+  }
+ 
+  .matn{
+    column-count: inherit;
+  }
