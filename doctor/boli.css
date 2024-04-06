@@ -181,7 +181,7 @@ undraw
 .ma{
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: center;
 }
 .hospital-ma{
     column-count: 2;
