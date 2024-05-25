@@ -26,6 +26,10 @@ body{
 .text{
     color: #bababa;
 }
+.border_texts{
+    border-left: 3pt solid #0092ca;
+    padding-left: 5pt;
+}
 .subgenres{}
 .top_movies{}
 .bi-chevron-right{

@@ -1,13 +1,29 @@
+*{
+    scroll-behavior: smooth;
+} 
+
+
 body{
     direction:rtl ;
     background-image: url( ./images/nody-دانلود-عکس-چلو-کباب-سلطانی-1620828328.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    margin: 0;
 }
+.none{
+list-style: none;
+margin:0;
+}
+.none>li{
+     margin-top:0 ;
+ display: inline-block;
+ padding: 30px;
+}
+
 .menu{
     background-color:#884A39;  
-    height: 50px
+  
 }
 .header{ 
     height: 400px;
@@ -79,7 +95,22 @@ body{
 
     background-color:#FFC26F
 }
-.footer{
-    height: 100px;
-    background-color:#884A39
+nav {
+    background-color: saddlebrown;
+}
+
+.menu>li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+.kabab{
+    width: 60px;
+}
+footer{
+    background-color: seagreen;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }

@@ -1,0 +1,118 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:#ffdfdf;
+    background-image: url(./image/music/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    direction: rtl;
+}
+.king{
+    background-color: #f875aa;
+    display: block;  
+    display: flex; 
+    justify-content: space-between;
+
+}
+.happy{
+    width: 200px;
+    height: 200px;
+}
+.menu>li{
+    list-style: none;
+    display: inline;
+    padding: 20px;
+}
+.title{
+    text-align: center;
+}
+/* ========================================== */
+.box{
+background-color: #f875aa;
+height: 50px;
+}
+/* ========================================== */
+
+.best{
+    height: 500px;
+    
+}
+/* ========================================== */
+
+.parts{
+    background-color: #ffdfdf;
+    min-height: 200px;
+    padding: 50px 7% 50px 7%;
+}
+/* ========================================== */
+
+.part1{
+    background-color: #ffdfdf;
+    background-size: 50px;
+}
+
+
+.cards {
+    background-color: deeppink;
+    height: 400px;
+    width: 250px;
+    padding: 10px 2% 10px 2%;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgcard {
+    height: 50%;
+    width: 100%;
+}
+
+.textcard {
+    height: 50%;
+    width: 100%;
+}
+.products{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.sale_products{
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+}
+/* ========================================== */
+
+.part2{
+    background-color: #ffdfdf;
+    background-image: url(./image/music/pattern_opacity.png);
+}
+/* ========================================== */
+
+.part3{
+   background-color: #ffdfdf;
+
+}
+/* ========================================== */
+
+.part4{
+    background-color: #ffdfdfd6;
+}
+/* ========================================== */
+
+.part5{
+    background-color: #ffdfdf;
+}
+/* ========================================== */
+
+.part6{
+    background-color:#f875aa ;
+}
+/* ========================================== */
+
+.king{
+    background-color: #f875aa;
+}

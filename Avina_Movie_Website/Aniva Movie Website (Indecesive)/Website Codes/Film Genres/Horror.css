@@ -26,6 +26,10 @@ body{
 .text{
     color: #bababa;
 }
+.border_texts{
+    border-left: 3pt solid #0092ca;
+    padding-left: 5pt;
+}
 .subgenres{}
 .top_movies{}
 .bi-chevron-right{
@@ -37,7 +41,7 @@ body{
     overflow-x: scroll;
 }
 .top_movies_cards{
-    height: 470pt;
+    height: 489pt;
     border-radius: 0 0 10pt 10pt;
 }
 .top_movies_cards_top{

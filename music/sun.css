@@ -1,9 +1,12 @@
+*{
+    scroll-behavior: smooth;
+}
 .menu{
     height: 50px;
     background-color: #9fbb73;
 }
 .header{
-    height: 200px;
+    height: 400px;
     /* background-color: #f3b664; */
 }
 .title{
@@ -24,6 +27,7 @@
 }
 body{
  min-height: 200px;
+direction:rtl;
 background-image: url(./images/music/header.png);
 background-repeat: no-repeat;
 background-size: cover;
@@ -47,6 +51,8 @@ margin: 0;
 .music_list{
     display: flex;
     gap: 20px;
+    width: 100%;
+    justify-content: space-around;
 }
 .cards {
     background-color: rgb(155, 116, 58);
@@ -65,8 +71,11 @@ margin: 0;
 }
 
 .tion4{
-   height: 200px;
+   min-height: 200px;
+gap: 80px;
     background-color: #f1eb90;
+    padding: 50px 7% 50px 7%;
+    display: flex;
 }
 .tion5{
     height: 200px;
@@ -96,4 +105,38 @@ text-align: center;
     text-align: center;
     padding: 5% 30px 5% 30px;
     font-size: 30px;
+
+}
+
+.square{
+    background-color: rgb(212, 195, 139);
+    color: rgb(8, 8, 8)
+    
+    ;
+    margin: 0%;
+}
+.square >li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+ }
+
+.circle{
+    background-color: chocolate;
+    color: black;
+}
+.subfooter{
+    background-color: #9fbb73;
+    height: 100px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    width: 140px;
+    height: 140px;
+}
+.ul{
+    list-style: none;
+    font-size: larger;
 }

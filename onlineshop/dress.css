@@ -14,14 +14,8 @@ background-size: cover;
     scroll-behavior: smooth;
 }
 .menu{
+    /* min-height: 80px; */
     background-color:#FCFFb2
-}
-.menu>ul{
-    margin: 0;
-}
-.menu>ul>li{
-    display: inline-block;
-    padding: 10px;
 }
 
 .parts{
@@ -55,9 +49,11 @@ background-color: #C7F2A4;
 
 }
 .footer{
-  min-height: 300pt;
+  height: auto;
     background-color:#FCFFB2 ;
-
+    display: flex;
+    justify-content: space-evenly;
+padding:50px 0;
 }
 .sale_txt{
     text-align:center ;
@@ -151,3 +147,24 @@ border-top-left-radius: 700px;
 .raa{
     font-size: 40px;
 }
+
+.menu>ul>li{
+    display: inline-block;
+    padding: 10px;
+}
+.na{
+    width: 100px;
+    height: 100px;
+}
+a{
+    text-decoration: none;
+}
+a:link , a:visited , a:active{
+    color: darkgreen;
+}
+.menu_list>li:hover{
+background-color: darkgreen;
+}
+.menu_list>li:hover a{
+    color: darkkhaki;
+    }

@@ -16,10 +16,53 @@ body{
 .medium_font-size_text{
     font-size: medium;
 }
+.border_texts{
+    border-left: 3pt solid #0092ca;
+    padding-left: 5pt;
+}
+*{
+    scroll-behavior: smooth;
+}
 .menu{
-    height: 10%;
+    height: 40pt;
     width: auto;
     background-color: black;
+    padding: 5pt;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10pt;
+}
+.logo{
+    height: 40pt;
+}
+.menu_list{
+    padding: 5pt;
+    background-color: #121212;
+    border-radius: 5pt 5pt 5pt 5pt;
+}
+.menu_ul{
+    list-style: none;
+    padding: 0%;
+}
+.search_div{
+    background-color: #121212;
+    padding: 5pt;
+    width: 800pt;
+    display: flex;
+    height: 20pt;
+    align-items: center;
+    border-radius: 5pt 5pt 5pt 5pt;
+}
+.sign_in_div{
+    background-color: #0092ca;
+    padding: 5pt;
+    border-radius: 5pt 5pt 5pt 5pt;
+    align-items: center;
+    justify-content: center;
+}
+.bi-search{
+    color: #2c2c2c;
 }
 .header{
     height:115pt;
@@ -41,7 +84,7 @@ body{
 }
 .film_genres{}
 .film_genres_list{
-    /* width: 1100pt; */
+    width: 1000pt;
     column-count: 3;
     gap: 60pt;
 }
@@ -51,6 +94,12 @@ body{
 .film_genres_divs_colored{
     background: linear-gradient(270deg, #1a1a1a, transparent);
     padding: 0.2pt;
+}
+a:link , a:visited , a:active{
+    color: white;
+}
+.film_genres_a{
+    text-decoration: none;
 }
 .top_movies{}
 .bi-chevron-right{
@@ -73,6 +122,9 @@ body{
 }
 .bi-star-fill{
     color: #f5c618;
+}
+.white_bi-star-fill{
+    color: white;
 }
 .top_movie_stars{}
 .top_movie_stars_cards{}
@@ -113,4 +165,6 @@ body{
     color: #1a1a1a;
     color: #121212;
     color: black;
+    color: #0092ca;
+    color: #0099ff;
 }

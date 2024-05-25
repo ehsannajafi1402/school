@@ -26,6 +26,10 @@ body{
 .text{
     color: #bababa;
 }
+.border_texts{
+    border-left: 3pt solid #0092ca;
+    padding-left: 5pt;
+}
 .subgenres{}
 .top_movies{}
 .bi-chevron-right{
@@ -39,6 +43,12 @@ body{
 .top_movies_cards{
     height: 470pt;
     border-radius: 0 0 10pt 10pt;
+}
+.miracle_on_34th_street_card{
+    width: 211.32pt;
+}
+.the_lord_of_the_rings_the_fellowship_of_the_ring_card{
+    width: 218.16pt;
 }
 .top_movies_cards_top{
     height: 324pt;

@@ -19,11 +19,23 @@ body{
 .menu>li{
     display: inline-block;
     padding: 18px;
+    cursor:pointer;
+}
+a{
+    text-decoration: none;
+}
+a:link ,a:visited ,a:active {
+    color: rgba(218, 182, 134, 0.808);
+}
+.colormenu>li:hover{
+    color: rgb(230, 207, 178);
+    background-color: rgb(112, 99, 82);
 }
 .header{
     height:400px ;
     min-width: 100px;
     text-align: center;
+    color: rgb(233, 238, 209);
 }
 .h2{
     color:bisque;
@@ -66,8 +78,7 @@ img {
 }
 .prooduct_list{
     gap: 500px;
-    display: flex;
-    flex-wrap: wrap;
+    displyap: wrap;
     min-height: 300px;
 }
 .div{
@@ -80,10 +91,14 @@ img {
     background-color: #EADBC8;
     height: 150px;
     text-align: center;
+    color: rgb(186, 189, 179);
 }
 .h1{color: black;}
 body{
     direction: ;
+}
+.list{
+    list-style: none;
 }
 
 .part3{
@@ -91,13 +106,16 @@ body{
     min-height:200px;
     column-count: 5;
 }
+.list1{
+    list-style: none;
+}
 .center{
     column-span: all;
     text-align:center ;
 }
 .part4{
 background-color:C2B8A3 ;
-height: 150px;
+height: 25px;
 text-align: center;
 }
 .r{
@@ -144,7 +162,7 @@ height:400px ;
 .puzzle{
     width: 300px;
     height: 300px;
-    background-color: blue;
+    background-color: rgb(168, 168, 147);
     display: flex;
     flex-wrap: wrap;
 }

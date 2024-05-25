@@ -1,31 +1,36 @@
+*{
+     scroll-behavior: smooth;
+}
 body{
+
      background-image: url(./image/coffee.jpeg);
      background-size: cover;
      background-attachment: fixed;
-     margin: 0 ;
+     margin: 0px;
+     margin-top: 0px;
 }
-
 .menu{
-     height: 50px;
      background-color:#CEE6F3;
-     
+     margin-top: 0;
+}
+.menu ul{
+     margin: 0;
 }
 .menu> ul>li{
      list-style: none;
      padding: 10px;
      font-size: large;
-     
+     display: inline-block;
+     padding: 20px;
 }
-
 .header{
      height: 300px;
      background-image: url(./image/coffee.jpeg);
      background-size: cover;
      background-attachment: fixed;
 }
-
 .parts{
-     min-height: 300px;
+     min-height: 100px;
      /* background-image: url(./caffee.png); */
      padding: 50px 5% 50px 5%;
 }
@@ -43,8 +48,6 @@ body{
      gap: 10px;
      flex-direction: row-reverse;
 }
-
-
 .part2{
      background-color:#6c3428  ;
      /* background-image: url(./image/pattern2.jpg);
@@ -55,7 +58,6 @@ body{
      background-color:#DFA878;
      margin: 10;
 }
-
 .cofee_list{
      display: flex;
      gap: 10px;
@@ -76,11 +78,9 @@ padding:5px
      width: 200px;
      height: 200px;
 }
-
 .part3{
      background-color:#BA704F;
 }
-
 .product_list{
      display:flex;
      gap: 10px;
@@ -96,7 +96,7 @@ padding:5px
 }
 
 .part5{
-     height: 300px;
+     /* height: 300px; */
      background-image: url(./image/pattern2.jpg);
      background-position: right;
      height: 100;
@@ -146,10 +146,18 @@ details{
      height: 100px;
      background-color: gray;
     display: flex;
-     align-items: center;
-justify-content:center;
-}
+    justify-content: space-around
 
+
+
+}
+ul>li{
+     list-style: none;
+
+}
+.footerax{
+     width: 80px;
+}
 .title2{
      text-align: center;
      margin: 0;
