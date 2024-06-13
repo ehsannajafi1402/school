@@ -33,16 +33,24 @@
  }
 
  .menu {
-    height: 40px;
-    background-color: #F8F1F1;  
+    /* height: 40px; */
+    /* background-color: #F8F1F1;  
     column-rule-style: inset;
     column-rule-color: #f3e3e3;
-    column-count: 8;
-    text-align: center;
+    column-count: 8; */
+    /* text-align: center; */
     font-size: larger;  
-    column-span: all;
+    background-color: #F8F1F1; 
+    /* column-span: all; */
    }
-
+   .menu ul{
+      margin: 0;
+   }
+.menu ul>li{
+   list-style: none;
+   padding: 16px 16px;
+   display: inline-block;
+}
  .parts {
     min-height: 400px;  
     background-color: #E8AA42;

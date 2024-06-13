@@ -3,7 +3,9 @@
     background-color: #f1c27b;
     padding: 10px 7%;
 }
-
+.menu .maryam{
+    margin: 0;
+}
 body {
     direction: rtl;
     background-image: url(./Pins/بنر.jpg);

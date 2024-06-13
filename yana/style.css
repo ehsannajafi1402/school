@@ -78,7 +78,7 @@ img {
 }
 .prooduct_list{
     gap: 500px;
-    displyap: wrap;
+    flex-wrap: wrap;
     min-height: 300px;
 }
 .div{

@@ -94,3 +94,6 @@ flex-direction: column;
     flex-wrap: wrap;
 
 }
+.desc_card{
+    column-count: 1;
+}

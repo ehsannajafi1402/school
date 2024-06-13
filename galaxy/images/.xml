@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="log_show_name_check" value="true" />
+    <int name="square_photo_ratio_picker" value="100" />
+    <boolean name="multiChats" value="false" />
+    <boolean name="my_name" value="false" />
+    <string name="HomeEntry">yousef</string>
+    <boolean name="Conv_call_btn" value="false" />
+    <boolean name="Hide_div" value="false" />
+    <boolean name="AttBt" value="false" />
+    <int name="main_text" value="17" />
+    <boolean name="yo_hideinfo" value="false" />
+    <boolean name="PicProf" value="false" />
+    <string name="ui_home_styleV3">stock</string>
+    <int name="text_size_pick" value="16" />
+</map>
